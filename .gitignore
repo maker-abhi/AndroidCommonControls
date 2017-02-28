@@ -1,14 +1,59 @@
-.gradle
-build/
-
 # Ignore Gradle GUI config
 gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
 
 # Cache of project
 .gradletasknamecache
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+###Android###
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+
+# External tool builders
+.externalToolBuilders/
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+
+###Maven###
+
+target/
+
+
+###Gradle###
+
+.gradle/
+build/
+
+
+###IntelliJ###
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
+
