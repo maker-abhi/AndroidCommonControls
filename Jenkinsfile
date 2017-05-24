@@ -1,9 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Initialize') {
+    stage('Build') {
       steps {
         echo 'Hello Jenkins!'
+        sh 'gradlew assembleDebug'
       }
     }
   }
