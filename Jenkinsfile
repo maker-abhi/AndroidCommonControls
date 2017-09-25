@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Hello Jenkins!'
+        sh './gradlew assembleDebug'
       }
     }
   }
